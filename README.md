@@ -1,3 +1,5 @@
+<img src="http://gitt.io/badge.svg"/>
+
 # jumper.layout.titanium.Alloy
 Slidding layout widget of titanium widget
 
