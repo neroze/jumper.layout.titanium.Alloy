@@ -79,7 +79,7 @@ _layout.navigateTo = function(e){
   
  var index = e.source.indexPosition;
  if (typeof index=="undefined") index=0;
- jumper.log(index);
+ //jumper.log(index);
 
 
   //jumper.log("current index : "+current.index+" : width : "+current.width);
@@ -88,7 +88,7 @@ _layout.navigateTo = function(e){
   //jumper.log("current index : "+current.index);
 
 
-   jumper.log("current index "+current.index+" Index "+index);
+  // jumper.log("current index "+current.index+" Index "+index);
 
   slides[current.index].animate({
      left:"-100%",
@@ -221,7 +221,7 @@ $.scrollView.addEventListener('scroll', function(e) {
     contentOffset = 0;
   }
  
-  jumper.log("scroll content offset "+contentOffset);
+ // jumper.log("scroll content offset "+contentOffset);
 
 });
 
