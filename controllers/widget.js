@@ -105,12 +105,16 @@ _layout.navigateTo = function(e){
   leftOffset = 0;
   current.index = index;
   current.width =  _layout.tabs[current.index].getWidth();
+  var howFar = _layout.beforeMe( current.index );
 
-  if( current.index % 2 == 0){
-      $.scrollView.scrollTo( _layout.beforeMe( current.index ) / 2 , 0);
+  if( howFar > Titanium.Platform.displayCaps.platformWidth /2 ){
+      $.scrollView.scrollTo( howFar / 2 , 0);
    }
 
-  _layout.rePositionIndicator();
+   setTimeout(function(){
+     _layout.rePositionIndicator();
+   }, 300);
+ 
 
 }
 
@@ -202,7 +206,7 @@ _layout.autoChangePage = function(e, opt){
 
    setTimeout(function(){
        _layout.tabs[_layout.autoIndex].fireEvent('click'); 
-   }, 200);
+   }, 300);
    
  
   
