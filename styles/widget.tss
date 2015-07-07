@@ -1,0 +1,21 @@
+"Label": {
+	color: '#000',
+	font: {
+		fontSize: 18,
+		fontWeight: 'bold'
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+".vCard":{
+    layout:"vertical"
+}
+'.hCard':{
+    layout:'horizontal'
+}
+'.cCard':{
+    layout:"composite"
+}
+'.active':{
+	color:"#FFF"
+}
