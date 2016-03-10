@@ -32,8 +32,6 @@ $.header.backgroundColor = args.backgroundColor;
     setTimeout(function(){
        _layout.configureTabs();
     },500);
-  
-  
   };
 
   _layout.addViews();
@@ -72,9 +70,6 @@ $.header.backgroundColor = args.backgroundColor;
 
   };
 
-
-
-
 _layout.navigateTo = function(e){
   
  var index = e.source.indexPosition;
@@ -87,7 +82,6 @@ _layout.navigateTo = function(e){
    _layout.tabs     = $.scrollView.children;
   //jumper.log("current index : "+current.index);
 
-
   // jumper.log("current index "+current.index+" Index "+index);
 
   slides[current.index].animate({
@@ -99,8 +93,6 @@ _layout.navigateTo = function(e){
      left:"0",
        duration: 250
   });
-
-
 
   leftOffset = 0;
   current.index = index;
@@ -120,8 +112,6 @@ _layout.navigateTo = function(e){
 
 _layout.swipeTabPage = function(){
 
-
- 
 }
 
 _layout.initIndicator = function(){
@@ -229,7 +219,6 @@ $.scrollView.addEventListener('dragend', function(e) {
   //contentOffset = $.scrollView.contentOffset.x;
    //jumper.log("drag end content offset "+contentOffset);
   _layout.rePositionIndicator ();
-
     
 });
 
