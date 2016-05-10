@@ -38,12 +38,7 @@ Slidding layout widget of titanium widget
   2. tabWidth : REQUIRED : it will be define width of the tab.
   
   #Preview
-  <img width="300" src="http://nirajmaharjan.com.np/freefiles/tab1.png"/>
-  <img width="300" src="http://nirajmaharjan.com.np/freefiles/tab2.png"/>
-  <img width="300" src="http://nirajmaharjan.com.np/freefiles/tab3.png"/>
-  
-  #Demo
-  http://nirajmaharjan.com.np/freefiles/jumperLayoutTitaniumAlloyWidget.swf
-  OR
-  <br>
-  http://screencast.com/t/pclyNc9bi0
+  <img width="300" src="http://oi64.tinypic.com/2ag8177.jpg"/>
+  <img width="300" src="http://oi64.tinypic.com/mct91t.jpg"/>
+  <img width="300" src="http://oi67.tinypic.com/ev3ozp.jpg"/>
+ 
