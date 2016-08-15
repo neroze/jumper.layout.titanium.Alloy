@@ -42,3 +42,5 @@ Slidding layout widget of titanium widget
   <img width="300" src="http://oi64.tinypic.com/mct91t.jpg"/>
   <img width="300" src="http://oi67.tinypic.com/ev3ozp.jpg"/>
  
+### Flash Demo
+<a href="http://nirajmaharjan.com.np/remote/layout.swf">Demo </a>
